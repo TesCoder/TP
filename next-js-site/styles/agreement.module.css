@@ -1,0 +1,72 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.59);
+} */
+
+/* main {
+  max-width: 1080px;
+  width: auto;
+  margin: auto;
+  line-height: 1.7em;
+}
+
+h1 {
+  color: #2d5780;
+  margin-bottom: 0.67em;
+} */
+
+#img-container {
+  text-align: center;
+}
+
+#img-container img {
+  width: 22%;
+}
+
+/* strong {
+  font-weight: bold;
+}
+
+a,
+a:visited {
+  color: #2d5780;
+  text-decoration: none;
+}
+
+button {
+  background-color: #a80000 !important;
+  border-color: #a80000 !important;
+}
+
+header {
+  position: relative;
+  margin-bottom: 10px;
+} */
+
+#agreement-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* pre {
+  white-space: pre-wrap;
+} */
+
+#terms {
+  font-family: "Courier New", Courier, monospace !important;
+  color:blue
+}
+
+/* @page {
+  size: A4;
+  margin: 1em 0;
+} */

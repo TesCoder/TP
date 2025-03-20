@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Daniels, Maria":mailto:maria_daniels@hks.harvard.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Worsdale, 
+ Simone":mailto:simone_worsdale@hks.harvard.edu
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Tesfatsion
+  Habebo:mailto:thabebo@alumni.stanford.edu
+ATTACH:CID:9D2449D2AFA5644EB53948108EED7C9D@namprd07.prod.outlook.com
+DESCRIPTION;LANGUAGE=en-US:Tesfa\,\nThanks very much for your interest in t
+ he Bloomberg Center for Cities at Harvard.\nJoining us will be Simone Wors
+ dale\, the Director of Digital Strategy at Harvard Kennedy School.\nAll be
+ st\,\nMaria\n\n\n[https://st2.zoom.us/static/6.3.12613/image/new/ZoomLogo_
+ 110_25.png]<http://zoom.us/>\n\nMaria Daniels is inviting you to a schedul
+ ed Zoom meeting.\nJoin Zoom Meeting<https://harvard.zoom.us/j/96702293148?
+ pwd=MmsrOWtSWi9LSllIY2JJd1hUeGtrZz09>\nMeeting URL:\nhttps://harvard.zoom.
+ us/j/96702293148?pwd=MmsrOWtSWi9LSllIY2JJd1hUeGtrZz09\nJoin by telephone (
+ use any number to dial in)\nDial:\n+1 301 715 8592\n+1 305 224 1968\n+1 30
+ 9 205 3325\n+1 312 626 6799\n+1 646 931 3860\n+1 929 436 2866\n+1 253 215 
+ 8782\n+1 346 248 7799\n+1 360 209 5623\n+1 386 347 5053\n+1 507 473 4847\n
+ +1 564 217 2000\n+1 669 444 9171\n+1 669 900 6833\n+1 689 278 1000\n+1 719
+  359 4580\n+1 253 205 0468\nMeeting ID:\n967 0229 3148\nInternational numb
+ ers<https://harvard.zoom.us/u/avnZYZyDd>\nOne tap mobile:\n+13017158592\,\
+ ,96702293148# US (Washington DC)\nJoin by SIP conference room system\nMeet
+ ing ID:\n967 0229 3148\nPassword:\n490497\nSIP:\n96702293148.490497@zoomcr
+ c.com<mailto:96702293148.490497@zoomcrc.com>\n\n\n\n
+UID:040000008200E00074C5B7101A82E0080000000020C64548D97CD901000000000000000
+ 0100000007C1BE9A8D2A11148B419384A9FF9EE8F
+SUMMARY;LANGUAGE=en-US:Bloomberg Center for Cities Front-End Developer Role
+DTSTART;TZID=Eastern Standard Time:20230503T160000
+DTEND;TZID=Eastern Standard Time:20230503T163000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20230502T142931Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:https://harvard.zoom.us/j/96702293148?pwd=MmsrOWtSW
+ i9LSllIY2JJd1hUeGtrZz09
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:1812092903
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://harvard.zoom.us/j/9670229314
+ 8?pwd=MmsrOWtSWi9LSllIY2JJd1hUeGtrZz09"\,"LocationAnnotation":""\,"Locatio
+ nUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationState":""\,"Loc
+ ationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
